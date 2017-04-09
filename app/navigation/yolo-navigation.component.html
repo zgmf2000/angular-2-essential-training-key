@@ -1,0 +1,17 @@
+<div id="nav">
+    <div id="nav_wrapper">
+        <ul>
+            <li *ngFor="let lookup of lookupLists.menu">
+                <a routerLink="{{lookup.href}}">{{lookup.text}}</a>
+            </li>
+            <li class="pull-right"> 
+                <a routerLink="/login">Login</a> 
+            </li>
+            <li class="pull-right"> 
+                <a routerLink="/register">Register</a> 
+            </li>
+        </ul>
+    </div>
+    <!-- Nav wrapper end -->
+</div>
+<!-- Nav end -->
