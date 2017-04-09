@@ -1,0 +1,20 @@
+<div class="container" [hidden]="isClosed()">
+  <a class="close pull-right" (click)="onClose()">x</a>
+  <div class="content">
+    <div>
+      Selected MediaItem Preview
+    </div>
+    <div>
+        <label>Name : {{ mediaItem ? mediaItem.name : "" }}</label>
+    </div>
+    <div>
+        <label>Watched : {{ mediaItem ? mediaItem.watchedOn : "" }}</label>
+    </div>
+    <div>
+        <label>Category: {{ mediaItem ? mediaItem.category : "" }}</label>
+    </div>
+    <div>
+        <label>Year: {{ mediaItem ? mediaItem.year : "" }}</label>
+    </div>
+  </div>
+</div>
