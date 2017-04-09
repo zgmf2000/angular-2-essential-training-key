@@ -1,0 +1,35 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+import { MediaItemComponent } from './media-item.component';
+<<<<<<< HEAD
+import { MediaItemPopupComponent } from './media-item-popup.component';
+=======
+import { MediaItemListComponent } from './media-item-list.component';
+import { FavoriteDirective } from './favorite.directive';
+import { CategoryListPipe } from './category-list.pipe';
+import { MediaItemFormComponent } from './media-item-form.component';
+>>>>>>> 04_02b
+
+@NgModule({
+  imports: [
+    BrowserModule
+  ],
+  declarations: [
+    AppComponent,
+    MediaItemComponent,
+<<<<<<< HEAD
+    MediaItemPopupComponent
+=======
+    MediaItemListComponent,
+    FavoriteDirective,
+    CategoryListPipe,
+    MediaItemFormComponent
+>>>>>>> 04_02b
+  ],
+  bootstrap: [
+    AppComponent
+  ]
+})
+export class AppModule {}
